@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
+    "start": "yarn install && next build && next start",
     "dev": "next",
     "build": "next build"    
   },
