@@ -1,13 +1,5 @@
 {
   "/_app": "pages/_app.js",
-  "/acao_social": "pages/acao_social.html",
-  "/apoio_Psicologico": "pages/apoio_Psicologico.html",
-  "/comunhao": "pages/comunhao.html",
-  "/contato": "pages/contato.html",
-  "/": "pages/index.js",
-  "/oracao": "pages/oracao.html",
-  "/sobre": "pages/sobre.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
