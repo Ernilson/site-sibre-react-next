@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "yarn install && next build && next start",
+    "start": "node server",
+    "postinstall": "npm run build",
     "dev": "next",
-    "build": "next build"    
+    "build": "next build"
   },
   "author": "Ernilson Daniel Lima de Souza",
   "license": "ISC",
-  "dependencies": {   
+  "dependencies": {
     "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
     "next": "^9.4.4",
+    "path": "^0.12.7",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "reactstrap": "^8.7.1"
