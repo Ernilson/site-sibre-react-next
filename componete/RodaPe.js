@@ -26,7 +26,7 @@ const RodaPe = () => {
                             <ul className="list-unstyled">
                                 <li>
                                     <Link href="/">
-                                        <a className="link-rodape">Menu</a>
+                                        <a className="link-rodape">Home</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -55,9 +55,9 @@ const RodaPe = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link href="/contato">
-                                        <a className="link-rodape">Areá Esp.01 - Rec.Das Emas/DF </a>
-                                    </Link>
+                                    <a href="https://goo.gl/maps/nB3GEHK9yLHAeEYx8" target="_blank">
+                                        <a className="link-rodape">Areá Esp.01 - Rec.Das Emas/DF</a>
+                                    </a>
                                 </li>
                             </ul>
                         </div>

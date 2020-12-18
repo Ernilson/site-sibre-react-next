@@ -37,9 +37,14 @@ function Encontros() {
             <Container>
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good.</h2>
-                        <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 className="featurette-heading">Nossos Encontros.</h2>
+                        <p className="lead">Viver em comunhão é uma marca da nossa comunidade. Venha ser igreja com a gente!
+                        Culto de oração - segunda às 8h
+                        PG homens - terça às 20h
+                        Culto - quarta às 20h
+                        Culto de oração - sexta às 16h
+                        Culto dominical - domingo às 19h
+                                .</p>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src="/culto2.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -51,12 +56,12 @@ function Encontros() {
 
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good.</h2>
-                        <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 className="featurette-heading">Louvai ao Senhor.</h2>
+                        <p className="lead">“Tudo que respira louve ao Senhor!” Como Deus habita no meio dos louvores, no lugar da adoração é onde queremos estar.
+                        .</p>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img src="/subr2.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        <img src="/louvor2.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                             width="500" height="500" alt="Sibre" />
 
                     </div>
@@ -66,9 +71,10 @@ function Encontros() {
 
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good.</h2>
-                        <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 className="featurette-heading">Orai sem cessar.</h2>
+                        <p className="lead">Buscamos ao Senhor, buscamos a Sua soberana vontade e Sua graça.
+                        “A fé sobe pelas escadas que o amor construiu, e olha pelas janelas que a esperança abriu”
+                        .</p>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src="/img001.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"

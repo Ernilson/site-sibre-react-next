@@ -8,7 +8,7 @@ import RodaPe from '../componete/RodaPe';
 
 import { Jumbotron, Container } from 'reactstrap';
 
-function Home({data}) {
+function Home({ data }) {
     return (
         <div>
             <Head>
@@ -87,14 +87,16 @@ function Home({data}) {
                             <div className="rounded-circle circulo2 centralizar2" />
                             <h2 className="mt-4 mb-4">Ação Social</h2>
                             <Link href="/acao_social">
-                                <a className="btn btn-light"><p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p></a>
+                                <a className="btn btn-light"><p>Ajudar como Cristo ajudaria e amar como Ele nos ama é a missão do ministério de Ação Social. Seja servindo com doação de alimentos ou roupas, trabalhamos para socorrer ao próximo em sua necessidade.
+
+</p></a>
                             </Link>
                         </div>
                         <div className="col-lg-4">
                             <div className="rounded-circle circulo3 centralizar3" />
                             <h2 className="mt-4 mb-4">Apoio Psicológico</h2>
                             <Link href="/apoio_Psicologico">
-                                <a className="btn btn-light"><p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p></a>
+                                <a className="btn btn-light"><p>Nosso objetivo está em prestar atendimento psicológico à comunidade em geral. Estes são realizados todas as sextas-feiras nas dependências de nossa igreja por um trio de psicólogos preparados para acolher aqueles que nos procuram..</p></a>
                             </Link>
                         </div>
                     </div>
@@ -106,10 +108,10 @@ function Home({data}) {
     );
 }
 
-export async function getServerSideProps(){
- const response = await fetch(`http://sibre2020-com-br.umbler.net/contato`);
-const data = await response.json();
-console.log(data);
-return {props: {data}}
+export async function getServerSideProps() {
+    const response = await fetch(`http://sibre2020-com-br.umbler.net/contato`);
+    const data = await response.json();
+    console.log(data);
+    return { props: { data } }
 }
 export default Home;

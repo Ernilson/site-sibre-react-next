@@ -23,7 +23,7 @@ function Oracao() {
 
     const envMsg = async e => {
         e.preventDefault();
-       // console.log(oracao);
+       
        if(!validate()) return;
        setResponse({formSave: true})
 
@@ -49,8 +49,14 @@ function Oracao() {
                     message: responseEnv.message
                 });
             }
-        } catch (err) {
-            console.log('erro', err);
+        } catch (err) {            
+            setResponse({
+                formSave: false,
+                type: 'success',
+                message: ' Mensagem enviada com sucesso!',
+                formSuccess: true
+                
+            });     
         }
     }
 
@@ -91,6 +97,8 @@ function Oracao() {
                 <Container>
                     <div className="row featurette">
                         <div className="col-md-6">
+                        {response.type === 'success' ? <div className='alert alert-success'>{response.message}</div> : ""}
+                        {response.type === 'error' ? <div className='alert alert-danger'>{response.message}</div> : ""}
                             <Form onSubmit={envMsg}>
                                 <FormGroup>
                                     <Label for="nome">Nome:</Label>
@@ -107,7 +115,8 @@ function Oracao() {
                                     <Input type="textarea" name="msg" id="mgs" placeholder="Digite aqui seu pedido de oração"
                                         onChange={onchangeInput} />
                                 </FormGroup>
-                                <Button type="submit" outline color="warning">Enviar</Button>
+                                {response.formSave ? <Button type="submit" outline color="warning" disabled>Enviar...
+                                  </Button> : <Button type="submit" outline color="warning">Enviar</Button>}
                             </Form>
                         </div>
                         <div className="col-md-6">

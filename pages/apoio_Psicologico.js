@@ -37,9 +37,9 @@ function Apoio() {
             <Container>
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good.</h2>
-                        <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 className="featurette-heading">Acreditamos em Você.</h2>
+                        <p className="lead">Acreditamos que cuidar de pessoas é um princípio aprendido com o Senhor Jesus e seus ensinos.  Pensando nisso, e  com o objetivo de ajudar a comunidade, o Projeto Integrar nasceu durante uma conversa entre psicólogos e irmãos que têm a visão de ajudar os outros em sua totalidade com atendimento psicológico prestado para todos os que precisarem. Os atendimentos acontecem desde 2016 todas as sextas-feiras na Sibre e a todas as faixas etárias.  
+                            .</p>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src="/psicologo.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -51,9 +51,9 @@ function Apoio() {
 
                 <div className="row featurette">
                     <div className="col-md-7 order-md-2">
-                        <h2 className="featurette-heading">Oh yeah, it’s that good.</h2>
-                        <p className="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                        <h2 className="featurette-heading">Amar é Viver.</h2>
+                        <p className="lead">Acreditamos que cuidar de pessoas é um princípio aprendido com o Senhor Jesus e seus ensinos.  Pensando nisso, e  com o objetivo de ajudar a comunidade, o Projeto Integrar nasceu durante uma conversa entre psicólogos e irmãos que têm a visão de ajudar os outros em sua totalidade com atendimento psicológico prestado para todos os que precisarem. Os atendimentos acontecem desde 2016 todas as sextas-feiras na Sibre e a todas as faixas etárias.
+.</p>
                     </div>
                     <div className="col-md-5 order-md-1">
                         <img src="/psicologo2.jfif" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
