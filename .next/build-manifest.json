@@ -24,6 +24,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
+    "/comunhao": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/comunhao.js"
+    ],
     "/oracao": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
