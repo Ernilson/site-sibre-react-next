@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run dev",
-    "postinstall": "npm run build",
+    "build": "next build",
+    "start": "next start -p $PORT",
     "dev": "next",
-    "build": "next build"
+    "heroku-postbuild": "npm run build"
   },
   "author": "Ernilson Daniel Lima de Souza",
   "license": "ISC",
