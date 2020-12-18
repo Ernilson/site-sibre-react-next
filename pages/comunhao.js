@@ -77,7 +77,7 @@ function Encontros() {
                         .</p>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img src="/img001.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                        <img src="/oracao1.png" className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                             width="500" height="500" alt="Sibre" />
 
                     </div>
