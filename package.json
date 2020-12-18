@@ -6,8 +6,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start -p $PORT",
-    "dev": "next",
-    "heroku-postbuild": "npm run build"
+    "dev": "next"
   },
   "author": "Ernilson Daniel Lima de Souza",
   "license": "ISC",
