@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/comunhao": "pages/comunhao.js",
-  "/sobre": "pages/sobre.js",
-  "/": "pages/index.js",
-  "/contato": "pages/contato.js"
+  "/sobre": "pages/sobre.js"
 }
