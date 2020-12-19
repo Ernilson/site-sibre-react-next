@@ -9,7 +9,7 @@ function Oracao() {
 
     const [oracao, setOracao] = useState({
         nome: '',
-        email: '',        
+        email: '',
         msg: ''
     });
 
@@ -23,9 +23,9 @@ function Oracao() {
 
     const envMsg = async e => {
         e.preventDefault();
-       
-       if(!validate()) return;
-       setResponse({formSave: true})
+
+        if (!validate()) return;
+        setResponse({ formSave: true })
 
         try {
             const res = await fetch(`https://sibre2020-com-br.umbler.net/oracao`, {
@@ -49,23 +49,23 @@ function Oracao() {
                     message: responseEnv.message
                 });
             }
-        } catch (err) {            
+        } catch (err) {
             setResponse({
                 formSave: false,
                 type: 'success',
                 message: ' Mensagem enviada com sucesso!',
                 formSuccess: true
-                
-            });     
+
+            });
         }
     }
 
     const validate = () => {
-        if(!oracao.nome) return setResponse({type: 'error', message: 'Preenchemento do campo Nome é obrigatório!'});
-        if(!oracao.msg) return setResponse({type: 'error', message: 'Preenchemento da mensagem é obrigatório!'});
+        if (!oracao.nome) return setResponse({ type: 'error', message: 'Preenchemento do campo Nome é obrigatório!' });
+        if (!oracao.msg) return setResponse({ type: 'error', message: 'Preenchemento da mensagem é obrigatório!' });
         return true;
     }
-    
+
     return (
         <div>
             <Head>
@@ -97,8 +97,8 @@ function Oracao() {
                 <Container>
                     <div className="row featurette">
                         <div className="col-md-6">
-                        {response.type === 'success' ? <div className='alert alert-success'>{response.message}</div> : ""}
-                        {response.type === 'error' ? <div className='alert alert-danger'>{response.message}</div> : ""}
+                            {response.type === 'success' ? <div className='alert alert-success'>{response.message}</div> : ""}
+                            {response.type === 'error' ? <div className='alert alert-danger'>{response.message}</div> : ""}
                             <Form onSubmit={envMsg}>
                                 <FormGroup>
                                     <Label for="nome">Nome:</Label>
@@ -109,7 +109,7 @@ function Oracao() {
                                     <Label for="email">Email:</Label>
                                     <Input type="email" name="email" id="email" placeholder="Digite Seu Email..."
                                         onChange={onchangeInput} />
-                                </FormGroup>                                
+                                </FormGroup>
                                 <FormGroup>
                                     <Label for="msg">Mensagem:</Label>
                                     <Input type="textarea" name="msg" id="mgs" placeholder="Digite aqui seu pedido de oração"
@@ -124,15 +124,14 @@ function Oracao() {
                             <p className="lead">A oração dos justos podem muito em seus efeitos - Tiago 5:16.</p>
                             <hr />
                             <address>
-                                <strong>Orai</strong><br />
-                                Pedi, e dar-se-vos-á; buscai, e encontrareis; batei, e abrir-se-vos-á.<br />
-                                Porque, aquele que pede, recebe; e, o que busca, encontra; e, ao que bate, abrir-se-lhe-á.<br />
-                                E qual dentre vós é o homem que, pedindo-lhe pão o seu filho, lhe dará uma pedra?<br />
-                                E, pedindo-lhe peixe, lhe dará uma serpente? <br />
-                                Se vós, pois, sendo maus, sabeis dar boas coisas aos vossos filhos, quanto mais vosso Pai, 
-                                que está nos céus, dará bens aos que lhe pedirem? <br />
-
-                                Mateus 7:7-11 <br />                           
+                                <strong>Nossos encontro de oração</strong><br />
+                               <p> Nossos encontros de orações são nas segunda as 08:00hrs
+                                quarta as 20:00 e sexta as 16:hrs nestes encontros nossas equipes de
+                                oração estaram orando por seus pedidos no altar intercedendo e clamando
+                                ao Deus Altissimo que não tardará em atende-lo, por tanto faça seu pedido
+                                e conte com o apoio da Sibre</p>
+                                Pedi, e dar-se-vos-á; buscai, e encontrareis; batei, e abrir-se-vos-á...<br />
+                                Mateus 7:7 <br />
                             </address>
                         </div>
                     </div>
