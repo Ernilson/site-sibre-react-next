@@ -80,13 +80,14 @@ function Home({ data }) {
                             <div className="rounded-circle circulo1 centralizar" />
                             <h2 className="mt-4 mb-4">Nossos Encontros</h2>
                             <Link href="/comunhao">
-                                <a className="btn btn-light"><p>Viver em comunhão é uma marca da nossa comunidade. Venha ser igreja com a gente!
-                                Culto de oração - segunda às 8h
-                                PG homens - terça às 20h
-                                Culto - quarta às 20h
-                                Culto de oração - sexta às 16h
-                                Culto dominical - domingo às 19h
-                                    .</p></a>
+                                <a className="btn btn-light"><p>Viver em comunhão é uma marca da nossa comunidade.
+                                Venha ser igreja com a gente!
+                                Culto de oração segunda às 8h -
+                                PG homens terça às 20h -
+                                Culto de oração quarta às 20h -
+                                Culto de oração sexta às 16h -
+                                Culto de celebração domingo às 19h
+                                    </p></a>
                             </Link>
                         </div>
                         <div className="col-lg-4">
