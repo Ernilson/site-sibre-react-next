@@ -119,7 +119,7 @@ function Oracao() {
                                   </Button> : <Button type="submit" outline color="warning">Enviar</Button>}
                             </Form>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6"><br />
                             <h3 className="featurette-heading">Orai sem cessar </h3>
                             <p className="lead">A oração dos justos podem muito em seus efeitos - Tiago 5:16.</p>
                             <hr />

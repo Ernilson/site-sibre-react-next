@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/acao_social": "pages/acao_social.js",
-  "/contato": "pages/contato.js"
+  "/comunhao": "pages/comunhao.js",
+  "/oracao": "pages/oracao.js"
 }
