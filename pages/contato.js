@@ -30,43 +30,36 @@ const Contato = () => {
         setResponse({ formSave: true })
 
         try {
-            const res = await fetch(`http://sibre2020-com-br.umbler.net/contato`, {
+            const res = await fetch(`https://sibre2020-com-br.umbler.net/contato`, {
                 method: `POST`,
                 body: JSON.stringify(contato),
                 headers: { 'Content-Type': 'application/json' }
             });
-            
-            const responseEnv = await res.json();
 
+            const responseEnv = await res.json();
             console.log(responseEnv);
             if (responseEnv.error) {
-
                 setResponse({
                     formSave: false,
-                    type: 'success',
+                    type: 'error',
                     message: responseEnv.message
-                });
+                })
             } else {
                 setResponse({
-                    formSave: false,
-                    type: 'success',
-                    message: ' erro!',
+                    formSave: true,
+                    type: 'error',
+                    message: responseEnv.message
                 });
             }
         } catch (err) {
             setResponse({
-                formSave: true,
+                formSave: false,
                 type: 'success',
                 message: ' Mensagem enviada com sucesso!',
+                formSuccess: true
+
             });
-           
-            /* 
-            if (!formSave) {
-                return <Redirect to ={{
-                    pathname: '/'}}/>
-            } 
-            */
-        };
+        }
     };
 
     const validate = () => {
