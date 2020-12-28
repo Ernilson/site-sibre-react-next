@@ -35,13 +35,7 @@ const Contato = () => {
                 body: JSON.stringify(contato),
                 headers: { 'Content-Type': 'application/json' }
             });
-
-            const App = () => {
-                const teste = useHistory();
-            }
-
             
-
             const responseEnv = await res.json();
 
             console.log(responseEnv);
@@ -130,7 +124,7 @@ const Contato = () => {
                             </FormGroup>
                             <FormGroup>
                                 <Label for="amsg">Assunto da Mensagem:</Label>
-                                <Input type="text" name="amsg" id="amgs" placeholder="Digite o assunto..."
+                                <Input type="text" name="amsg" id="amsg" placeholder="Digite o assunto..."
                                     onChange={onchangeInput} />
                             </FormGroup>
                             <FormGroup>

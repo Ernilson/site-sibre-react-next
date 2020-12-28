@@ -24,15 +24,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/comunhao": [
+    "/contato": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/comunhao.js"
-    ],
-    "/oracao": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/oracao.js"
+      "static/chunks/pages/contato.js"
     ]
   },
   "ampFirstPages": []

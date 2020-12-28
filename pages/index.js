@@ -115,10 +115,4 @@ function Home({ data }) {
     );
 }
 
-export async function getServerSideProps() {
-    const response = await fetch(`http://sibre2020-com-br.umbler.net/contato`);
-    const data = await response.json();
-    console.log(data);
-    return { props: { data } }
-}
 export default Home;

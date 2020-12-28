@@ -78,20 +78,19 @@ function Oracao() {
             <Jumbotron fluid className="head-oracao">
                 <style>{`.head-oracao{
                 padding-top: 60px;
-                padding-buttom:5px;
+                padding-buttom:1px;
                 background-color: #fff;
                 margin-bottom: 0ren ! important;
          }`}</style>
                 <Container>
-                    <h1 className="display-8 text-center">Oração</h1>
+                    <h1 className="display-8 text-center">Pedi e dar-se-vos-á</h1>
                 </Container>
             </Jumbotron>
-
             <Jumbotron fluid className="form-oracao">
                 <style>{`.head-oracao{
-                padding-top: 60px;
-                padding-buttom:5px;
-                background-color: #fff;
+                padding-top: 120px;
+                padding-buttom:1px;
+                background-image: url(/peticao.png);
                 margin-bottom: 0ren ! important;
          }`}</style>
                 <Container>
